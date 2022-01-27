@@ -1,0 +1,15 @@
+.text-bebas-neue {
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+.row ul {
+  padding: 0;
+}
+.row ul li {
+  list-style: none;
+}
+
+.time {
+  font-size: 70px;
+}

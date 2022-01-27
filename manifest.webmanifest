@@ -1,0 +1,16 @@
+{
+  "name": "Jadwal KhoirApp",
+  "short_name": "Jadwal",
+  "description": "Aplikasi jadwal yang mudah diedit",
+  "icons": [
+    {
+      "src": "icons/icon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.php",
+  "display": "fullscreen",
+  "theme_color": "#342AB1",
+  "background_color": "#342AB1"
+}
