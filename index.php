@@ -24,7 +24,21 @@ body {
 </head>
 <body>
 
-<div class="text-center py-2 bg-white card mt-2 shadow-sm">
+<div class="text-center py-2 pt-3 bg-white card shadow-sm" style="border-radius: 0 0 1.4em 1.4em;padding-top:0 !important">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand text-bebas-neue fw-bold" href="#">Jadwal</a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+      </div>
+    </div>
+  </div>
+</nav>
   <div class="time text-bebas-neue p-0">
     <span id="hour"></span>:<span id="minute"></span>:<span id="second"></span>
   </div>
@@ -105,7 +119,7 @@ body {
         <div class="title fs-2 text-bebas-neue fw-bold">Action</div>
         <div>
           <div class="btn btn-sm btn-success d-block mb-2">Edit Mode</div>
-          <div class="btn btn-sm btn-primary d-block">Save</div>
+          <div class="btn btn-sm btn-primary d-block">Share Link</div>
         </div>
         <div>
           <p class="text-muted fs-3 text-bebas-neue mb-0 mt-3">Created By Khoir</p>
