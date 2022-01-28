@@ -7,6 +7,7 @@
 <meta name="theme-color" content="#aabbff">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/x-icon" href="assets/img/android/android-launchericon-96-96.png">
+<link rel="apple-touch-icon" href="assets/img/android/android-launchericon-512-512.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
