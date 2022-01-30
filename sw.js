@@ -5,9 +5,13 @@ self.addEventListener('install', (event) => {
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll([
         './index.php',
+        './manage.php',
+        './profile.php',
+        './explore.php',
         './assets/css/bootstrap.min.css',
         './assets/js/bootstrap.min.js',
         './index.js',
+        './assets/js/manage.js',
         './assets/img/pattern.jpeg'
       ]);
     })
