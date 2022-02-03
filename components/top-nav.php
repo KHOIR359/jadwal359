@@ -1,4 +1,4 @@
-<div class="text-center py-2 pt-3 bg-white card shadow-sm first-section position-relative" >
+<div class="text-center py-2 pt-3 bg-white card shadow-sm first-section position-sticky top-0"  >
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
             <a class="navbar-brand text-bebas-neue fw-bold" href="#">Jadwal</a>
@@ -22,7 +22,7 @@
             </div>
             <div class="col-md-12 col-8">
               <div class="time text-bebas-neue p-0">
-                <span id="hour"></span>: <span id="minute"></span>: <span id="second"></span>
+                <span id="hour"></span>:<span id="minute"></span>:<span id="second"></span>
               </div>
               <div id="date"></div>
             </div>

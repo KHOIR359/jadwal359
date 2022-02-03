@@ -11,14 +11,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <style>
     body {
-      background-image: url('assets/img/pattern.jpeg');
-      background-size: 250px;
+      /* background-image: url('assets/img/pattern.jpeg'); */
+      /* background-size: 250px; */
+      background: #fcfcfc;
     }
   </style>
   <title>Jadwal Khoir</title>

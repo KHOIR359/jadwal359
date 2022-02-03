@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
       <div class="col-2"></div>
       <div class="col-4">
-      <a href="#" data-title="${i}" class="selectBtn btn btn-sm d-block mb-2 btn-success">Select</a>
+      <a href="#" data-title="${i}" class="selectBtn btn btn-sm d-block mb-2 btn-success">${ localStorage['activeScheduleTitle'] == i ? "Selected" : "select" }</a>
       <a href="#" data-title="${i}" class="editBtn btn btn-sm d-block btn-primary" data-bs-toggle="modal" data-bs-target="#editModal">Edit</a>
       </div>
       </div>
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     Array.from(selectBtns).forEach((e, i)=> {
       e.addEventListener('click', function(ev) {
         const dataTitle = ev.target.dataset.title;
-        localStorage['activeSchedule'] = JSON.stringify(scheduleList[dataTitle]);
+        localStorage['activeScheduleTitle'] = dataTitle;
         renderScheduleList()
       })
     })
@@ -82,6 +82,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   }
 
+  editModal.querySelector('#delete').addEventListener('click', function() {
+    const inputs = document.querySelectorAll('#editModal input')
+    const newData = JSON.parse(localStorage['scheduleData']);
+    delete newData[inputs[0].value];
+    localStorage['scheduleData'] = JSON.stringify(newData); 
+    renderScheduleList()  
+  })
+  
   editModal.querySelector('#saveEdit').addEventListener('click', function() {
     const inputs = document.querySelectorAll('#editModal input')
     const textareas = document.querySelectorAll('#editModal textArea')

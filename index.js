@@ -1,3 +1,8 @@
+if(!localStorage['scheduleData']){
+localStorage['scheduleData'] = JSON.stringify({"Jadwal PJJ Kelas 12 MIPA 1":{"description":"semester 2 tahun 2022","monday":"Matematika Wajib (07:00) (08:00) (Porman)\nBiology (08:00) (09:00) (Budi)\nIstirahat (09:00) (09:30) (Tidak untuk selamanya)\nAgama (09:30) (10:30) (Ahmad)\nKimia (10:30) (11:30) (Riza)\n","tuesday":"Kimia (07:00) (08:00) (Riza)\nFisika  (08:00) (09:00) (Auliya)\nIstirahat (09:00) (09:30) (Tidak untuk selamanya)\nPKWU (09:30) (10:30) (Suci)\nSeni Budaya (10:30) (11:30) (Sumi)\n","wednesday":"PPKn  (07:00) (08:00) (Hasan)\nSejarah  (08:00) (09:00) (Dina)\nIstirahat (09:00) (09:30) (Tidak untuk selamanya)\nBiologi  (09:30) (10:30) (Budi)\nFisika (10:30) (11:30) (Auliya)","thursday":"Bahasa Inggris (07:00) (08:00) (Maya)\nBahasa Jepang (08:00) (09:00) (Ratih)\nIstirahat (09:00) (09:30) (Tidak untuk selamanya)\nBahasa Jepang (09:30) (10:30) (Ratih)\nMatematika Minat (10:30) (11:30) (Rahmat)","friday":"PJOK (07:00) (08:00) (Umar)\nMatematika Wajib (08:00) (09:00) (Porman)\nIstirahat (09:00) (09:30) (Tidak untuk selamanya)\nBahasa Indonesia (9:30) (10:30) (Salbi)\nBk (10:30) (11:30) (Zein)"}})
+localStorage['activeScheduleTitle'] = "Jadwal PJJ Kelas 12 MIPA 1"
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   let hourText = document.querySelector('#hour');
   let minuteText = document.querySelector('#minute');

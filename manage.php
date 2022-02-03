@@ -51,7 +51,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" id="addBtn">Add Now</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"  id="addBtn">Add Now</button>
           </div>
         </div>
       </div>
@@ -102,12 +102,13 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" id="saveEdit">Save</button>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" id="delete">Delete</button>
+            <button data-bs-dismiss="modal"  type="button" class="btn btn-primary" id="saveEdit">Save</button>
           </div>
+    
         </div>
       </div>
     </div>
-    
   </div>
 </div>
 
