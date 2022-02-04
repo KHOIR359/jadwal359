@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const scheduleData = JSON.parse(localStorage['scheduleData'])[activeScheduleTitle];
   for (const i in scheduleData) {
     if (i == 'description' || !scheduleData[i]) continue;
-    let cards = createElementFromHTML(` <div class="col-12 col-md-6 mb-4"> <div class="p-2 px-4 card shadow-sm" style="border-radius:15px;"> <div class="card-day fw-bold text-bebas-neue fs-3 text-grey mb-2"> ${i} </div> <div> <ul> </ul> </div> </div> </div>`);
+    let cards = createElementFromHTML(` <div class="col-6 col-md-6 mb-4"> <div class="p-2 px-3 card shadow-sm" style="border-radius:15px;"> <div class="card-day fw-bold text-bebas-neue fs-3 text-grey mb-2"> ${i} </div> <div> <ul> </ul> </div> </div> </div>`);
     
     Array.from(scheduleData[i].split('\n')).forEach((e,i)=>{
       if(!e) return false;
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
         </div>
         <div class="">
-          <div class="study fs-5 text-supermercado no-lh">
+          <div class="study fs-md-5 text-supermercado no-lh">
             ${study}
           </div>
           <div class="desc text-ubuntu fw-light text-ubuntu font-italic">

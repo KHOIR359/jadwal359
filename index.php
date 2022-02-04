@@ -6,7 +6,8 @@
   </div>
   <div class="col-12 col-md-8">
     <div class="container pt-3 pb-5">
-      <div class="row scheduleContainer pb-5">
+      <div class="row gx-3 scheduleContainer pb-5">
+        
 
       </div>
     </div>
