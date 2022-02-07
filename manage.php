@@ -1,5 +1,5 @@
 <?php include_once('components/header.php') ?>
-<nav class="text-bebas-neue text-center bg-white py-2 fs-2 fw-bold shadow-sm">
+<nav class="text-bebas-neue text-center bg-white fs-3 fw-semibold shadow-sm">
   Manage
 </nav>
 <div class="container pt-4 container bg-white card py-3 mt-2 shadow">
